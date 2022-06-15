@@ -94,7 +94,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #FF8C00;
 }
 #header .logo img {
-  max-height: 40px;
+  height: 70px;
+  width: 120px;
+  border: 2px solid #dd9309;
+  border-radius: 8px;
+  /* box-shadow: 2px 5px 15px #fdfdfd80; */
 }
 
 /*--------------------------------------------------------------
@@ -527,7 +531,8 @@ section {
 .about .content .about-btn {
   padding: 8px 30px 9px 30px;
   color: #fff;
-  border-radius: 50px;
+  border: 1px solid #FF8C00;
+  border-radius: 5px;
   transition: 0.3s;
   text-transform: uppercase;
   font-weight: 600;
@@ -535,12 +540,12 @@ section {
   display: inline-flex;
   align-items: center;
   border: 2px solid linear-gradient(175deg,#FF8C00, #e03a3c);
-  margin-top: 300px;
+  /* margin-top: 300px; */
 }
-.about .content .about-btn i {
+/* .about .content .about-btn i {
   font-size: 16px;
   padding-left: 5px;
-}
+} */
 .about .content .about-btn:hover {
   background: #e35052;
   background: linear-gradient(175deg,#FF8C00, #e03a3c);
